@@ -1,5 +1,7 @@
 # bug-css-minification-postcss-tailwind
-It seems @tailwindcss/postcss is attempting to minify files which one would not expect it to.
+This repo was created using `npx create-next-app --example reproduction-template reproduction-app` and then following https://tailwindcss.com/docs/installation/framework-guides/nextjs guide to setup postcss and tailwindcss.
+
+It seems @tailwindcss/postcss is attempting to minify arbitrary files which one would not expect it to.
 
 ## steps to reproduce
 - `cd reproduction-app`
